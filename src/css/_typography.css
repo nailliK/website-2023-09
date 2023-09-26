@@ -1,0 +1,67 @@
+html {
+	font-family: var(--font-family-primary);
+	line-height: var(--line-height);
+	font-size: var(--font-size);
+	color: var(--color-text);
+}
+
+@media screen and (width <= 48rem) {
+	:root {
+		--font-size: 0.875rem;
+	}
+}
+
+@media screen and (width <= 30rem) {
+	:root {
+		--font-size: 0.75rem;
+	}
+}
+
+h1, h2, h3, h4 {
+	font-family: var(--font-family-secondary);
+	font-weight: bold;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: calc(var(--font-size) * 6);
+	line-height: 1;
+	margin-bottom: var(--padding);
+
+	& + p {
+		color: var(--color-text-alt);
+		font-family: var(--font-family-secondary);
+		font-size: calc(var(--font-size) * 2);
+		margin-bottom: calc(var(--padding) * 2);
+		font-weight: 700;
+	}
+}
+
+h2 {
+	font-size: calc(var(--font-size) * 3);
+	margin-bottom: calc(var(--padding) * 2);
+	margin-top: calc(var(--padding) * 3);
+	border-bottom: solid 1px var(--color-text);
+}
+
+h3 {
+	color: var(--color-text-alt);
+	font-size: calc(var(--font-size) * 2);
+	margin-bottom: var(--padding);
+}
+
+h4 {
+	font-size: calc(var(--font-size));
+	margin-bottom: var(--padding);
+}
+
+p {
+	margin: 0 0 var(--padding) 0;
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration-color: var(--color-text-alt);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25rem;
+}

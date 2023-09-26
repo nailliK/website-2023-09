@@ -1,28 +1,42 @@
 {
-  "name": "www",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install"
-  },
-  "dependencies": {
-    "@types/node": "20.6.3",
-    "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
-    "next": "13.5.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.2.2"
-  },
-  "devDependencies": {
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.5.2",
-    "eslint-config-prettier": "^9.0.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1"
-  }
+	"name": "killian-grant-2023-09",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:nailliK/website-2023-09.git",
+	"author": "Killian Grant <killian@killiangrant.com>",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"@babel/core": "^7.22.20",
+		"@babel/preset-env": "^7.22.20",
+		"@babel/preset-typescript": "^7.22.15",
+		"@linthtml/linthtml": "^0.9.5",
+		"css-loader": "^6.8.1",
+		"html-loader": "^4.2.0",
+		"html-webpack-plugin": "^5.5.3",
+		"prettier": "^3.0.3",
+		"standard": "^17.1.0",
+		"style-loader": "^3.3.3",
+		"stylelint": "^15.10.3",
+		"stylelint-config-standard": "^34.0.0",
+		"ts-loader": "^9.4.4",
+		"tsc": "^2.0.4",
+		"typescript": "^5.2.2",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	},
+	"scripts": {
+		"lint": "yarn run lint:css && yarn run lint:html && yarn run lint:ts",
+		"lint:css": "stylelint src/**/*.css --fix",
+		"lint:html": "linthtml src/**/*.html --fix",
+		"lint:ts": "standard src/**/*.ts --fix",
+		"webpack": "yarn lint && rm -rf ./dist/* && NODE_ENV=production tsc --lib es6 webpack.config.ts --esModuleInterop && webpack --config webpack.config.js",
+		"webpack:dev": "tsc --lib es6 webpack.config.ts --esModuleInterop && webpack serve --config webpack.config.js"
+	},
+	"dependencies": {
+		"@ts-stack/markdown": "^1.5.0",
+		"babel-loader": "^9.1.3",
+		"raw-loader": "^4.0.2"
+	}
 }

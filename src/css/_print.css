@@ -1,0 +1,23 @@
+@media print {
+	:root {
+		--font-size: 10pt;
+	}
+
+	@page {
+		background-color: var(--color-background);
+		margin: 0.5in;
+		padding: 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	#experience,
+	#techtonic-group,
+	#mondo-robot,
+	#education {
+		page-break-before: always;
+		margin-top: 0.5in;
+	}
+}

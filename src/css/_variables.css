@@ -1,0 +1,18 @@
+:root {
+	--color-black: #262627;
+	--color-grey: #807E81;
+	--color-white: #f5f5f5;
+	--color-green: #29AA35;
+	--color-blue: #2286EA;
+	--color-background: var(--color-black);
+	--color-primary: var(--color-green);
+	--color-secondary: var(--color-blue);
+	--color-text: var(--color-white);
+	--color-text-alt: var(--color-grey);
+	--font-family-primary: "Operator Mono SSm Lig", monospace;
+	--font-family-secondary: "DIN OT", sans-serif;
+	--font-size: 1rem;
+	--ratio: 1.5;
+	--line-height: var(--ratio);
+	--padding: calc(var(--font-size) * var(--ratio));
+}

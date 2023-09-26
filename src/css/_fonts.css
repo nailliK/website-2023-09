@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'DIN OT';
+	src: url('../fonts/DINOT-Bold.woff2') format('woff2'),
+	url('../fonts/DINOT-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DIN OT';
+	src: url('../fonts/DINOT-BoldItalic.woff2') format('woff2'),
+	url('../fonts/DINOT-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DIN OT';
+	src: url('../fonts/DINOT-Italic.woff2') format('woff2'),
+	url('../fonts/DINOT-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DIN OT';
+	src: url('../fonts/DINOT-Medium.woff2') format('woff2'),
+	url('../fonts/DINOT-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DIN OT';
+	src: url('../fonts/DINOT-MediumItalic.woff2') format('woff2'),
+	url('../fonts/DINOT-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DIN OT';
+	src: url('../fonts/DINOT.woff2') format('woff2'),
+	url('../fonts/DINOT.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Operator Mono SSm Lig';
+	src: url('../fonts/OperatorMonoSSmLig-Light.woff2') format('woff2'),
+	url('../fonts/OperatorMonoSSmLig-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Operator Mono SSm Lig';
+	src: url('../fonts/OperatorMonoSSmLig-Book.woff2') format('woff2'),
+	url('../fonts/OperatorMonoSSmLig-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Operator Mono SSm Lig';
+	src: url('../fonts/OperatorMonoSSmLig-BookItalic.woff2') format('woff2'),
+	url('../fonts/OperatorMonoSSmLig-BookItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Operator Mono SSm Lig';
+	src: url('../fonts/OperatorMonoSSmLig-MediumItalic.woff2') format('woff2'),
+	url('../fonts/OperatorMonoSSmLig-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Operator Mono SSm Lig';
+	src: url('../fonts/OperatorMonoSSmLig-Medium.woff2') format('woff2'),
+	url('../fonts/OperatorMonoSSmLig-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+

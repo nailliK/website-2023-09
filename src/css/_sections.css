@@ -1,0 +1,53 @@
+#killian-louis-grant + p + ul {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	> li {
+		text-align: right;
+
+		&::before {
+			display: none;
+		}
+	}
+}
+
+#competencies + ul {
+	display: grid;
+	padding: 0;
+	gap: calc(var(--padding) * 2);
+	grid-template-columns: 1fr 1fr;
+
+	> li {
+		&::before {
+			display: none;
+		}
+
+		> ul {
+			display: block;
+			padding: 0 0 0 var(--padding);
+			margin: 0;
+		}
+	}
+}
+
+#education + h3 + p {
+	margin-bottom: calc(var(--padding) * 2);
+}
+
+@media screen and (width <= 30rem) {
+	#competencies + ul {
+		display: block;
+		margin-bottom: calc(var(--padding) * 2);
+
+		> li > ul {
+			display: block;
+			margin-bottom: calc(var(--padding) * 2);
+		}
+	}
+}
+
+

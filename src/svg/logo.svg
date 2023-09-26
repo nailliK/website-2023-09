@@ -1,0 +1,13 @@
+<svg fill="none"
+		 id="logo"
+		 viewBox="0 0 96 96"
+		 xmlns="http://www.w3.org/2000/svg">
+	<path d="M48 48L64 32H96" fill="#29AA35" opacity="0.25"/>
+	<path d="M48 48L64 64H96" fill="#29AA35" opacity="0.5"/>
+	<path d="M48 48L64 32V0L48 48Z" fill="#29AA35" opacity="0.75"/>
+	<path d="M48 48L32 96V0L48 48Z" fill="#29AA35" opacity="0.5"/>
+	<path d="M48 48L64 64V96L48 48Z" fill="#29AA35" opacity="0.75"/>
+	<path d="M32 0H0V96H32V0Z" fill="#29AA35"/>
+	<path d="M96 0H64V32H96V0Z" fill="#29AA35"/>
+	<path d="M96 64H64V96H96V64Z" fill="#29AA35"/>
+</svg>

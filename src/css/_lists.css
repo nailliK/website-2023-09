@@ -1,0 +1,23 @@
+ul {
+	list-style: none;
+	margin: 0 0 calc(var(--padding) * 2) 0;
+	padding: 0 0 0 var(--padding);
+
+	> li {
+		line-height: var(--line-height);
+		font-size: var(--font-size);
+		position: relative;
+
+		&::before {
+			display: block;
+			position: absolute;
+			width: var(--padding);
+			top: 0;
+			left: calc(-1 * var(--padding));
+			line-height: var(--line-height);
+			content: "•";
+			color: var(--color-text-alt);
+		}
+	}
+}
+
