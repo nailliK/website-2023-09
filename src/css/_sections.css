@@ -21,7 +21,7 @@
 	margin-bottom: calc(var(--padding) * 2);
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 30rem) {
 	#killian-louis-grant + p + ul {
 		position: absolute;
 		top: 0;
