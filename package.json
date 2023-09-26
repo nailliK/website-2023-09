@@ -31,12 +31,14 @@
 		"lint:css": "stylelint src/**/*.css --fix",
 		"lint:html": "linthtml src/**/*.html --fix",
 		"lint:ts": "standard src/**/*.ts --fix",
-		"webpack": "NODE_ENV=production tsc --lib es6 webpack.config.ts --esModuleInterop && webpack --config webpack.config.js",
-		"webpack:dev": "tsc --lib es6 webpack.config.ts --esModuleInterop && webpack serve --config webpack.config.js"
+		"build": "NODE_ENV=production tsc --lib es6 webpack.config.ts --esModuleInterop && webpack --config webpack.config.js && cp src/404.html dist/404.html",
+		"dev": "tsc --lib es6 webpack.config.ts --esModuleInterop && webpack serve --config webpack.config.js",
+		"serve": "yarn build && http-server dist/ -p 8080"
 	},
 	"dependencies": {
 		"@ts-stack/markdown": "^1.5.0",
 		"babel-loader": "^9.1.3",
+		"http-server": "^14.1.1",
 		"raw-loader": "^4.0.2"
 	}
 }
