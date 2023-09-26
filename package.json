@@ -31,7 +31,7 @@
 		"lint:css": "stylelint src/**/*.css --fix",
 		"lint:html": "linthtml src/**/*.html --fix",
 		"lint:ts": "standard src/**/*.ts --fix",
-		"webpack": "yarn lint && rm -rf ./dist/* && NODE_ENV=production tsc --lib es6 webpack.config.ts --esModuleInterop && webpack --config webpack.config.js",
+		"webpack": "NODE_ENV=production tsc --lib es6 webpack.config.ts --esModuleInterop && webpack --config webpack.config.js",
 		"webpack:dev": "tsc --lib es6 webpack.config.ts --esModuleInterop && webpack serve --config webpack.config.js"
 	},
 	"dependencies": {
