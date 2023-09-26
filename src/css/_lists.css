@@ -1,23 +1,22 @@
 ul {
-	list-style: none;
-	margin: 0 0 calc(var(--padding) * 2) 0;
-	padding: 0 0 0 var(--padding);
+  margin: 0 0 calc(var(--padding) * 2) 0;
+  padding: 0 0 0 var(--padding);
+  list-style: none;
 
-	> li {
-		line-height: var(--line-height);
-		font-size: var(--font-size);
-		position: relative;
+  > li {
+    position: relative;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
 
-		&::before {
-			display: block;
-			position: absolute;
-			width: var(--padding);
-			top: 0;
-			left: calc(-1 * var(--padding));
-			line-height: var(--line-height);
-			content: "•";
-			color: var(--color-text-alt);
-		}
-	}
+    &::before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: calc(-1 * var(--padding));
+      width: var(--padding);
+      content: '•';
+      color: var(--color-text-alt);
+      line-height: var(--line-height);
+    }
+  }
 }
-

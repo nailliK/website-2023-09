@@ -1,21 +1,18 @@
 {
-	"env": {
-		"browser": true,
-		"node": true
-	},
-	"compilerOptions": {
-		"lib": [
-			"es2016",
-			"dom"
-		],
-		"outDir": "./dist/",
-		"noImplicitAny": true,
-		"module": "esnext",
-		"target": "es2016",
-		"sourceMap": true,
-		"allowJs": true,
-		"moduleResolution": "node",
-		"allowSyntheticDefaultImports": true,
-		"esModuleInterop": true
-	}
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["es2016", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "target": "es2016"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
 }

@@ -1,7 +1,7 @@
 #logo {
-	display: block;
-	width: calc(var(--padding) * 4);
-	height: calc(var(--padding) * 4);
-	margin-bottom: calc(var(--padding) * 3);
-	padding: 0;
+  display: block;
+  margin-bottom: calc(var(--padding) * 3);
+  padding: 0;
+  width: calc(var(--padding) * 4);
+  height: calc(var(--padding) * 4);
 }
