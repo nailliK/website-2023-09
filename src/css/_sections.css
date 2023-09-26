@@ -1,20 +1,3 @@
-#killian-louis-grant + p + ul {
-	margin: 0;
-	padding: 0;
-	width: auto;
-	position: absolute;
-	top: 0;
-	right: 0;
-
-	> li {
-		text-align: right;
-
-		&::before {
-			display: none;
-		}
-	}
-}
-
 #competencies + ul {
 	display: grid;
 	padding: 0;
@@ -38,7 +21,27 @@
 	margin-bottom: calc(var(--padding) * 2);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (min-width: 48rem) {
+	#killian-louis-grant + p + ul {
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		margin: 0;
+		padding: 0;
+		width: auto;
+
+		> li {
+			text-align: right;
+
+			&::before {
+				display: none;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 30rem) {
 	#competencies + ul {
 		display: block;
 		margin-bottom: calc(var(--padding) * 2);
