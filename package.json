@@ -33,7 +33,7 @@
 		"lint:ts": "standard src/**/*.ts --fix",
 		"build": "NODE_ENV=production tsc --lib es6 webpack.config.ts --esModuleInterop && webpack --config webpack.config.js && cp src/404.html dist/404.html",
 		"dev": "tsc --lib es6 webpack.config.ts --esModuleInterop && webpack serve --config webpack.config.js",
-		"serve": "http-server dist/"
+		"serve": "http-server dist/ -p 8080"
 	},
 	"dependencies": {
 		"@ts-stack/markdown": "^1.5.0",
