@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="96" height="96"><svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.25" d="M48 48L64 32H96" fill="#29AA35"></path>
+<path opacity="0.5" d="M48 48L64 64H96" fill="#29AA35"></path>
+<path opacity="0.75" d="M48 48L64 32V0L48 48Z" fill="#29AA35"></path>
+<path opacity="0.5" d="M48 48L32 96V0L48 48Z" fill="#29AA35"></path>
+<path opacity="0.75" d="M48 48L64 64V96L48 48Z" fill="#29AA35"></path>
+<path d="M32 0H0V96H32V0Z" fill="#29AA35"></path>
+<path d="M96 0H64V32H96V0Z" fill="#29AA35"></path>
+<path d="M96 64H64V96H96V64Z" fill="#29AA35"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+</style></svg>
