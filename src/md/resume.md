@@ -1,3 +1,6 @@
+[_metadata_:foo]:- "bar"
+[_metadata_:fizz]:- "buzz"
+
 # Killian Louis Grant
 
 Full-Stack Engineering & Leadership
