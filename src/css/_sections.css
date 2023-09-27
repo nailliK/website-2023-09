@@ -1,19 +1,10 @@
 #competencies + ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: calc(var(--padding) * 2);
-  padding: 0;
+  display: block;
+  margin-bottom: calc(var(--padding) * 2);
 
-  > li {
-    &::before {
-      display: none;
-    }
-
-    > ul {
-      display: block;
-      margin: 0;
-      padding: 0 0 0 var(--padding);
-    }
+  > li > ul {
+    display: block;
+    margin-bottom: calc(var(--padding) * 2);
   }
 }
 
@@ -21,7 +12,26 @@
   margin-bottom: calc(var(--padding) * 2);
 }
 
-@media (min-width: 30rem) {
+@media screen and (min-width: 30rem), print {
+  #competencies + ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(var(--padding) * 2);
+    padding: 0;
+
+    > li {
+      &::before {
+        display: none;
+      }
+
+      > ul {
+        display: block;
+        margin: 0;
+        padding: 0 0 0 var(--padding);
+      }
+    }
+  }
+
   #killian-louis-grant + p + ul {
     position: absolute;
     top: 0;
@@ -37,18 +47,6 @@
       &::before {
         display: none;
       }
-    }
-  }
-}
-
-@media screen and (max-width: 30rem) {
-  #competencies + ul {
-    display: block;
-    margin-bottom: calc(var(--padding) * 2);
-
-    > li > ul {
-      display: block;
-      margin-bottom: calc(var(--padding) * 2);
     }
   }
 }
