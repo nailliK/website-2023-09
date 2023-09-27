@@ -13,7 +13,8 @@ Please note, this is a work in progress as well as a personal test-bed for vario
 
 
 ## TO DO
-- [ ] Improve everything
+- [ ] Keep Improving everything
+- [ ] Fix Firefox print margin-top issue
 - [ ] Move static assets to a separate directory
 - [ ] Add description and keywords metadata to a flat file
 - [ ] Move to GCP bucket
