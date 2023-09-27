@@ -4,9 +4,16 @@
   }
 
   @page {
-    margin: 0.5in;
+    margin: 0;
     background-color: var(--color-background);
     padding: 0;
+    size: auto;
+  }
+
+  html,
+  body {
+    color-adjust: exact;
+    print-color-adjust: exact;
   }
 
   a {

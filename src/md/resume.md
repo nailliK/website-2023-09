@@ -21,8 +21,8 @@ Full-Stack Engineering & Leadership
   - Node, Express, Nest, Next, Nuxt
   - PHP, Symfony, Laravel
   - Java, Spring Boot
-  - gRPC, Swagger, OpenAPI
-  - GraphQL, REST, gRPC
+  - Swagger, OpenAPI
+  - REST, GraphQL, gRPC
   - WebSockets
   - Message Queues, Microservices
 - ### Database
