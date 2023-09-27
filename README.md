@@ -16,7 +16,7 @@ Please note, this is a work in progress as well as a personal test-bed for vario
 - [ ] Improve everything
 - [ ] Move static assets to a separate directory
 - [ ] Add description and keywords metadata to a flat file
-- [ ] Move to GCP bucket instead of http-server
+- [ ] Move to GCP bucket
 - [ ] Add Projects section
 - [ ] Configure lint-staged
 - [ ] Eliminate Webpack(?)
