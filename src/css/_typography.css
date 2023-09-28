@@ -16,6 +16,7 @@ h4 {
 
 h1 {
   margin-bottom: var(--padding);
+  margin-left: -0.375rem; /* align text to margin */
   font-size: calc(var(--font-size) * 6);
   line-height: 1;
 

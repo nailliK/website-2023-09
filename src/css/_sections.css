@@ -33,9 +33,12 @@
   }
 
   #killian-louis-grant + p + ul {
+    display: grid;
     position: absolute;
     top: 0;
     right: 0;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--padding);
 
     margin: 0;
     padding: 0;
