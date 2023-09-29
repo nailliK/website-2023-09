@@ -5,12 +5,10 @@
 
 Full-Stack Engineering & Leadership
 
-- [39°46'6.8952"N, 105°5'12.861"W](https://www.google.com/maps/place/39°46'6.8952"N,+105°5'12.861"W/)
 - [+1 720 231-9248 [SMS]](sms:+17202319248)
 - [killian@killiangrant.com](mailto:killian@killiangrant.com)
 - [killiangrant.com](https://www.killiangrant.com)
 - [github.com/nailliK](https://www.github.com/nailliK)
-- [linkedin.com/in/killianlgrant](https://www.linkedin.com/in/killianlgrant)
 
 ## Competencies
 
@@ -71,7 +69,6 @@ _Senior Lead Front-End Engineer_, July 2020 - September 2021
 - Responsible for re-architecting the legacy subscriber-side experience for our streaming video application. Replaced legacy liquid-based templates with reusable Vue components.
 - Improved front-end developer experience by decoupling the front-end from legacy Rails platform (SPA), modernizing front-end toolsets and advocating for better seed / migration data.
 - Established front-end best practices and coding standards. Implemented style-guides, test suites, and code linting / formatting to enforce standards and best-practices.
-- Mentored junior developers and new teammates. Provided short lessons to improve their competency with Vue / Vuex, and performed code-reviews for all incoming front-end pull-requests.
 
 ### Techtonic
 
