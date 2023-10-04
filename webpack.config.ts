@@ -14,7 +14,7 @@ const logo = fs
 
 const config: Configuration = {
   devtool: 'source-map',
-  entry: ['./src/index.ts'],
+  entry: './src/index.ts',
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
@@ -54,17 +54,6 @@ const config: Configuration = {
               precompileOptions: {
                 knownHelpersOnly: false,
               },
-            },
-          },
-        ],
-      },
-      {
-        test: /\.md$/i,
-        use: [
-          {
-            loader: 'raw-loader',
-            options: {
-              esModule: false,
             },
           },
         ],
