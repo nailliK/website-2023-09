@@ -3,25 +3,9 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import path from 'path'
 import fs from 'fs'
-import { marked } from 'marked'
 
-// Override function
-const renderer = {
-  heading: (text: string, level: number) => {
-    const escapedText = text.toLowerCase().replace(/[^\w]+/g, '-')
-    return `<h${level} id="${escapedText}">${text}</h${level}>`
-  },
-}
-
-marked.use({
-  renderer,
-  async: false,
-  pedantic: false,
-  gfm: true,
-})
-
-const resume = marked.parse(
-  fs.readFileSync(path.resolve(__dirname, 'src/md/resume.md')).toString()
+const resume = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, 'src/json/resume.json')).toString()
 )
 
 const logo = fs
@@ -30,7 +14,7 @@ const logo = fs
 
 const config: Configuration = {
   devtool: 'source-map',
-  entry: './src/index.ts',
+  entry: ['./src/index.ts'],
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
@@ -61,6 +45,20 @@ const config: Configuration = {
         use: 'html-loader',
       },
       {
+        test: /\.hbs$/i,
+        use: [
+          {
+            loader: 'handlebars-loader',
+            options: {
+              helperDirs: path.resolve(__dirname, './src/hbs/helpers'),
+              precompileOptions: {
+                knownHelpersOnly: false,
+              },
+            },
+          },
+        ],
+      },
+      {
         test: /\.md$/i,
         use: [
           {
@@ -78,9 +76,11 @@ const config: Configuration = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/ejs/index.ejs',
+      cache: false,
+      minify: true,
+      template: './src/hbs/index.hbs',
       templateParameters: {
-        resume: marked.parse(resume),
+        resume,
         logo,
       },
     }),

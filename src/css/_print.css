@@ -1,6 +1,6 @@
 @media print {
   :root {
-    --font-size: 10pt;
+    --font-size: 10px;
   }
 
   @page {
@@ -21,11 +21,12 @@
   }
 
   #experience,
-  #techtonic,
-  #monigle,
-  #spire-digital,
-  #education {
+  #techtonic > ul > li:nth-of-type(3) {
     page-break-before: always;
     margin-top: 0.5in;
+  }
+
+  #fruition {
+    margin-top: calc(var(--padding) * 2)
   }
 }

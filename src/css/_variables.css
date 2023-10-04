@@ -11,7 +11,7 @@
   --color-text-alt: var(--color-grey);
   --font-family-primary: 'Operator Mono SSm Lig', monospace;
   --font-family-secondary: 'DIN OT', sans-serif;
-  --font-size: 1rem;
+  --font-size: 14px;
   --ratio: 1.5;
   --line-height: var(--ratio);
   --padding: calc(var(--font-size) * var(--ratio));

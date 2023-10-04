@@ -1,39 +1,98 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" >
+<head >
     <meta charset="UTF-8" />
-    <meta
-      content="width=device-width, initial-scale=1.0"
-      name="viewport"
-    />
+    <meta content="width=device-width, initial-scale=1.0"
+          name="viewport" />
 
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="favicon.svg"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="favicon.png"
-    />
+    <link href="../svg/favicon.svg"
+          rel="icon"
+          type="image/svg+xml" />
+    <link href="../img/favicon.png"
+          rel="icon"
+          type="image/png" />
 
-    <meta
-      name="description"
-      content="Killian Louis Grant - Full Stack Engineer and Leader. Contact: killian@killiangrant.com"
-    />
+    <meta content="Killian Louis Grant - Full Stack Engineer and Leader. Contact: killian@killiangrant.com"
+          name="description" />
 
-    <meta
-      name="keywords"
-      content="Killian Louis Grant, Killian L. Grant, Killian L Grant, Killian Grant, Killian, Grant, Javascript Developer, Typescript Developer, Javascript, Typescript, Node, Back-End Engineer, Front-End Engineer, Full-Stack Engineer, Full-Stack, Back-End, Front-End, Engineer, Developer, Leader, Denver, Colorado "
-    />
+    <meta content="Killian Louis Grant, Killian L. Grant, Killian L Grant, Killian Grant, Killian, Grant, Javascript Developer, Typescript Developer, Javascript, Typescript, Node, Back-End Engineer, Front-End Engineer, Full-Stack Engineer, Full-Stack, Back-End, Front-End, Engineer, Developer, Leader, Denver, Colorado"
+          name="keywords" />
 
-    <title>Killian Louis Grant | Full-Stack Engineering & Leadership</title>
-  </head>
-  <body>
-    <main id="resume">
-      <%= logo %>
-      <%= resume %>
-    </main>
-  </body>
-</html>
+    <title ><%= resume.about.name ;%> | <%= resume.about.objective ;%></title >
+</head >
+
+<body >
+<a class="skip-link"
+   href="#resume" >Skip to main content</a >
+
+<header id="header" >
+    <%= logo ;%>
+    <h1 ><%= resume.about.name ;%></h1 >
+    <p ><%= resume.about.objective ;%></p >
+
+    <%= sayHi("Killian") ;%>
+</header >
+
+<nav id="navigation" >
+    <ul >
+        <% for (const link of resume.about.contact) { %>
+            <li >
+                <a href="<%= link.url ;%>"
+                   id="<%= link.name ;%>" ><%= link.label ;%></a >
+            </li >
+        <% } %>
+    </ul >
+</nav >
+
+<main id="resume" >
+    <section id="competencies" >
+        <h2 >Competencies</h2 >
+        <ul >
+            <% for (const competency of resume.competencies) { %>
+                <li >
+                    <h3 ><%= competency.category ;%></h3 >
+                    <ul >
+                        <% for (const skill in competency.skills) { %>
+                            <li >
+                                <strong ><%= skill ;%></strong >: <%= competency.skills[skill] ;%>
+                            </li >
+                        <% } %>
+                    </ul >
+                </li >
+            <% } %>
+        </ul >
+    </section >
+
+    <section id="experience" >
+        <h2 >Experience</h2 >
+
+        <% for (const job of resume.experience.slice(0, 5)) { %>
+
+            <h3 ><%= job.company ;%></h3 >
+            <p >
+                <em ><%= job.position ;%></em >, <%= formatDate(job.duration.startDate) ;%>
+                                              - <%= formatDate(job.duration.endDate) ;%>
+            </p >
+            <ul >
+                <% for (const duty in job.responsibilities) { %>
+                    <li >
+                        <strong ><%= duty ;%></strong >: <%= job.responsibilities[duty] ;%>
+                    </li >
+                <% } %>
+            </ul >
+        <% } %>
+    </section >
+
+    <section id="education" >
+        <h2 >Education</h2 >
+        <% for (const school of resume.education) { %>
+            <h3 ><%= school.school ;%></h3 >
+            <p >
+                <em ><%= school.degree ;%></em >, <%= formatDate(school.duration.startDate) ;%>
+                                               - <%= formatDate(school.duration.endDate) ;%>
+            </p >
+        <% } %>
+    </section >
+</main >
+</body >
+</html >

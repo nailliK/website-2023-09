@@ -1,5 +1,6 @@
 html {
   color: var(--color-text);
+  font-weight: 300;
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family-primary);
@@ -56,4 +57,9 @@ a {
   text-decoration-color: var(--color-text-alt);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.25rem;
+}
+
+b,
+strong {
+  font-weight: bold;
 }

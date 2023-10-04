@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "resolveJsonModule": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -8,7 +9,7 @@
     "noImplicitAny": true,
     "outDir": "dist",
     "sourceMap": true,
-    "target": "esnext",
+    "target": "esnext"
   },
   "env": {
     "browser": true,

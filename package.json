@@ -13,6 +13,7 @@
     "@types/webpack": "^5.28.3",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.8.1",
+    "handlebars-loader": "^1.7.3",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
     "marked": "^9.0.3",
@@ -26,6 +27,8 @@
     "sass-loader": "^13.3.2",
     "standard": "^17.1.0",
     "style-loader": "^3.3.3",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard-scss": "^11.0.0",
     "ts-loader": "^9.4.4",
     "ts-node": "^10.9.1",
     "tsc": "^2.0.4",
@@ -39,13 +42,14 @@
     "lint": "standard src/**/*.ts --fix",
     "format": "prettier ./src --write",
     "build": "yarn run clean && yarn run compile && yarn run copy",
-    "copy": "cp src/404.html dist/404.html && cp src/favicon.svg dist/favicon.svg && cp src/favicon.png dist/favicon.png",
+    "copy": "cp src/html/404.html dist/404.html && cp src/svg/favicon.svg dist/favicon.svg && cp src/img/favicon.png dist/favicon.png",
     "clean": "rm -rf dist",
     "compile": "NODE_ENV=production webpack --config webpack.config.ts --mode production",
     "dev": "webpack serve --config webpack.config.ts --mode development --static dist",
     "serve": "http-server dist/ -p 8080"
   },
   "dependencies": {
+    "handlebars": "^4.7.8",
     "http-server": "^14.1.1",
     "postcss-loader": "^7.3.3"
   }

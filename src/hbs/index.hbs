@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" >
+<head >
+  <meta charset="UTF-8" >
+  <meta content="width=device-width, initial-scale=1.0"
+        name="viewport" >
+
+  <link rel="icon"
+        href="../svg/favicon.svg"
+        type="image/svg+xml" >
+  <link rel="icon"
+        href="../img/favicon.png"
+        type="image/png" >
+
+  <meta name="description"
+        content="Killian Louis Grant - Full Stack Engineer and Leader. Contact: killian@killiangrant.com" >
+  <meta name="keywords"
+        content="Killian Louis Grant, Killian L. Grant, Killian L Grant, Killian Grant, Killian, Grant, Javascript Developer, Typescript Developer, Javascript, Typescript, Node, Back-End Engineer, Front-End Engineer, Full-Stack Engineer, Full-Stack, Back-End, Front-End, Engineer, Developer, Leader, Denver, Colorado" >
+
+  <title >{{{resume.about.name}}} | {{{resume.about.objective}}}</title >
+</head >
+<body >
+<a class="skip-link"
+   href="#resume" >Skip to main content</a >
+
+<header id="header" >
+  {{{logo}}}
+  <h1 id="{{slugify resume.about.name}}" >{{resume.about.name}}</h1 >
+  <p >{{resume.about.objective}}</p >
+</header >
+
+<nav id="navigation" >
+  <ul >
+    {{#each resume.about.contact}}
+      <li >
+        <a href="{{url}}"
+           id="{{name}}" >{{label}}</a >
+      </li >
+    {{/each}}
+  </ul >
+</nav >
+
+<main id="resume" >
+  <section id="competencies" >
+    <h2 >Competencies</h2 >
+    <ul >
+      {{#each resume.competencies}}
+        <li id="{{slugify category}}" >
+          <h3 >{{category}}</h3 >
+          <ul >
+            {{#each skills}}
+              <li id="{{slugify @key}}" >
+                <strong >{{@key}}</strong >: {{this}}
+              </li >
+            {{/each}}
+          </ul >
+        </li >
+      {{/each}}
+    </ul >
+  </section >
+
+  <section id="experience" >
+    <h2 >Experience</h2 >
+
+    {{#each (limit resume.experience 5)}}
+      <article id="{{slugify company}}" >
+        <h3 >{{company}}</h3 >
+        <p >
+          <em >{{position}}</em >, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}
+        </p >
+        <ul >
+          {{#each responsibilities}}
+            <li >
+              <strong >{{@key}}</strong >: {{this}}
+            </li >
+          {{/each}}
+        </ul >
+      </article >
+    {{/each}}
+  </section >
+
+  <section id="education" >
+    <h2 >Education</h2 >
+    {{#each resume.education}}
+      <article id="{{slugify school}}" >
+        <h3 >{{school}}</h3 >
+        <p >
+          <em >{{degree}}</em >, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}
+        </p >
+      </article >
+    {{/each}}
+  </section >
+</main >
+</body >
+</html >
