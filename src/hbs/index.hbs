@@ -26,6 +26,7 @@
 <header id="header" >
   {{{logo}}}
   <h1 id="{{slugify resume.about.name}}" >{{resume.about.name}}</h1 >
+  <h2 >{{resume.about.title}}</h2 >
   <p >{{resume.about.objective}}</p >
 </header >
 
@@ -65,9 +66,8 @@
     {{#each (limit resume.experience 5)}}
       <article id="{{slugify company}}" >
         <h3 >{{company}}</h3 >
-        <p >
-          <em >{{position}}</em >, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}
-        </p >
+        <h4 >{{position}}, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}</h4 >
+        <p ><em >{{description}}</em ></p >
         <ul >
           {{#each responsibilities}}
             <li >
@@ -85,7 +85,7 @@
       <article id="{{slugify school}}" >
         <h3 >{{school}}</h3 >
         <p >
-          <em >{{degree}}</em >, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}
+          {{degree}}, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}
         </p >
       </article >
     {{/each}}

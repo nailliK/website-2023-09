@@ -2,7 +2,7 @@
   "arrowParens": "always",
   "endOfLine": "lf",
   "jsonRecursiveSort": true,
-  "plugins": ["prettier-plugin-css-order", "prettier-plugin-sort-json"],
+  "plugins": ["prettier-plugin-css-order"],
   "semi": false,
   "singleAttributePerLine": true,
   "singleQuote": true,

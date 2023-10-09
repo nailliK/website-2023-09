@@ -13,6 +13,7 @@ h4 {
   margin-top: 0;
   font-weight: bold;
   font-family: var(--font-family-secondary);
+  text-wrap: balance;
 }
 
 h1 {
@@ -20,19 +21,11 @@ h1 {
   margin-left: -0.375rem; /* align text to margin */
   font-size: calc(var(--font-size) * 6);
   line-height: 1;
-
-  + p {
-    margin-bottom: calc(var(--padding) * 2);
-    color: var(--color-text-alt);
-    font-weight: 700;
-    font-size: calc(var(--font-size) * 2);
-    font-family: var(--font-family-secondary);
-  }
 }
 
 h2 {
-  margin-top: calc(var(--padding) * 3);
-  margin-bottom: calc(var(--padding) * 2);
+  margin-top: calc(var(--padding) * 2);
+  margin-bottom: var(--padding);
   border-bottom: solid 1px var(--color-text);
   font-size: calc(var(--font-size) * 3);
 }
@@ -45,7 +38,7 @@ h3 {
 
 h4 {
   margin-bottom: var(--padding);
-  font-size: calc(var(--font-size));
+  font-size: calc(var(--font-size) * 1.5);
 }
 
 p {

@@ -3,7 +3,9 @@
 @import '_base.css';
 @import '_typography.css';
 @import '_logo.css';
+@import '_header.css';
 @import '_competencies.css';
+@import '_experience.css';
 @import '_navigation.css';
 @import '_lists.css';
 @import '_sections.css';
