@@ -21,10 +21,13 @@
   }
 
   #experience,
-  #techtonic,
-  #monigle,
-  #sterling-rice-group {
+  #techtonic {
     page-break-before: always;
-    margin-top: 0.5in;
+    margin-top: 0;
+    padding-top: 0.5in;
+  }
+
+  #experience > h2 {
+    margin-top: 0;
   }
 }
