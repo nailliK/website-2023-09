@@ -14,6 +14,7 @@ goals. Leverages strategic vision and hands-on expertise for transformative impa
 ## Competencies
 
 - ### Management & Leadership
+
   - **Training & Mentorship**: Fostered a culture of continuous learning, and provided mentorship to junior team
     members.
   - **Team Leadership**: Experience in leading cross-functional teams, setting measurable goals, and ensuring they're
@@ -23,6 +24,7 @@ goals. Leverages strategic vision and hands-on expertise for transformative impa
     objectives.
 
 - ### Engineering Concepts
+
   - **Agile Methodologies**: Proficient in various Agile practices, including SAFe, Scrum, Kanban, Extreme Programming (
     XP), and Feature-Driven Development (FDD). Emphasis on iterative development, continuous feedback, and adaptive
     planning.
@@ -31,17 +33,20 @@ goals. Leverages strategic vision and hands-on expertise for transformative impa
     Agile.
 
 - ### Back-End Development
+
   - **Frameworks & Libraries**: Node (with Express, Nest, Next, Nuxt), PHP (with Symfony, Laravel), Java (with Spring
     Boot)
   - **Communication**: WebSockets, Message Queues, Microservices, REST, GraphQL, gRPC
   - **API Tools**: Swagger, OpenAPI
 
 - ### Front-End Development
+
   - **Scripting & Tooling**: TypeScript, TypeScript, WebPack, Workspaces, Yarn, NPM
   - **Frameworks**: React (with Redux, MobX), Vue (with VueX, Pinia), HTMx, Web Components, PWA
   - **Accessibility & Performance**: Testing and remediation for WCAG 2.1 AA, Lighthouse
 
 - ### Database Management
+
   - **Relational Databases**: SQL, Postgres, MySQL, SQLite, BigQuery, RDS
   - **NoSQL Databases**: Mongo, Couch
   - **Cloud Databases**: Firebase, Firestore, RealtimeDB
@@ -78,8 +83,7 @@ _Drove technological vision, collaborating extensively across departments to ens
 - **Technical Leadership**: Collaborated with product and technology leadership to plan the roadmap for technology pods.
   Provided technical leadership to teammates through coaching, mentorship, and establishing best practices. Performed
   peer code reviews to maintain high software quality standards.
-- **Backend API Design**: Led the design and solutioning of high-performance backend APIs using Express.js and Nest.js,
-  ensuring scalability and efficiency.
+- **Full-Stack Architecture & CMS Integration**: Spearheaded the design and solutioning of high-performance full-stack applications, integrating frontend frameworks like Vue with Vuex and backend technologies, including Java with the Spring Framework. Seamlessly incorporated Adobe Experience Manager to enhance content management capabilities. Ensured scalability, efficiency, and flawless interoperability between layers and systems.
 - **Collaboration & Integration**: Worked closely with software developers, business analysts, and architects to design,
   develop, test, and maintain enterprise platform services. Developed, refined, and tuned integrations between various
   applications.
