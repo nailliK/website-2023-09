@@ -41,40 +41,63 @@
   </ul >
 </nav >
 
-<main id="resume" >
-  <section id="competencies" >
-    <h2 >Competencies</h2 >
-    <ul >
-      {{#each resume.competencies}}
-        <li id="{{slugify category}}" >
-          <h3 >{{category}}</h3 >
-          <ul >
-            {{#each skills}}
-              <li id="{{slugify @key}}" >
-                <strong >{{@key}}</strong >: {{this}}
-              </li >
-            {{/each}}
-          </ul >
-        </li >
-      {{/each}}
-    </ul >
-  </section >
+<!--<main id="resume" >-->
+<!--  <section id="competencies" >-->
+<!--    <h2 >Competencies</h2 >-->
+<!--    <ul >-->
+<!--      {{#each resume.competencies}}-->
+<!--        <li id="{{slugify category}}" >-->
+<!--          <h3 >{{category}}</h3 >-->
+<!--          <ul >-->
+<!--            {{#each skills}}-->
+<!--              <li id="{{slugify @key}}" >-->
+<!--                <strong >{{@key}}</strong >: {{this}}-->
+<!--              </li >-->
+<!--            {{/each}}-->
+<!--          </ul >-->
+<!--        </li >-->
+<!--      {{/each}}-->
+<!--    </ul >-->
+<!--  </section >-->
 
   <section id="experience" >
     <h2 >Experience</h2 >
 
-    {{#each (limit resume.experience 5)}}
+    {{#each resume.experience}}
       <article id="{{slugify company}}" >
         <h3 >{{company}}</h3 >
-        <h4 >{{position}}, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}</h4 >
-        <p ><em >{{description}}</em ></p >
+        <p >
+          <strong>{{position}}</strong>, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}
+        </p >
+
+        {{#if description}}
+        <p >{{description}}</p >
+        {{/if}}
+
+        {{#if responsibilities}}
         <ul >
           {{#each responsibilities}}
             <li >
-              <strong >{{@key}}</strong >: {{this}}
+             {{this}}
             </li >
           {{/each}}
         </ul >
+        {{/if}}
+
+        {{#if technologies}}
+          <ul class="inline" >
+            {{#each skills}}
+              <li >
+                {{this}}
+              </li >
+            {{/each}}
+            {{#each technologies}}
+              <li >
+                {{this}}
+              </li >
+            {{/each}}
+          </ul >
+        {{/if}}
       </article >
     {{/each}}
   </section >
@@ -85,7 +108,7 @@
       <article id="{{slugify school}}" >
         <h3 >{{school}}</h3 >
         <p >
-          {{degree}}, {{formatDate duration.startDate}} - {{formatDate duration.endDate}}
+          <strong>{{degree}}</strong>
         </p >
       </article >
     {{/each}}

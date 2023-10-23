@@ -1,6 +1,10 @@
+* {
+  text-wrap: balance;
+}
+
 html {
   color: var(--color-text);
-  font-weight: 300;
+  font-weight: 400;
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family-primary);
@@ -13,13 +17,12 @@ h4 {
   margin-top: 0;
   font-weight: bold;
   font-family: var(--font-family-secondary);
-  text-wrap: balance;
 }
 
 h1 {
   margin-bottom: var(--padding);
   margin-left: -0.375rem; /* align text to margin */
-  font-size: calc(var(--font-size) * 6);
+  font-size: calc(var(--font-size) * 4);
   line-height: 1;
 }
 
@@ -32,13 +35,12 @@ h2 {
 
 h3 {
   margin-bottom: var(--padding);
-  color: var(--color-text-alt);
   font-size: calc(var(--font-size) * 2);
 }
 
 h4 {
   margin-bottom: var(--padding);
-  font-size: calc(var(--font-size) * 1.5);
+  font-size: var(--font-size);
 }
 
 p {
@@ -47,9 +49,7 @@ p {
 
 a {
   color: var(--color-primary);
-  text-decoration-color: var(--color-text-alt);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.25rem;
+  text-decoration: none;
 }
 
 b,

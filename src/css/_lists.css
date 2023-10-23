@@ -1,5 +1,5 @@
 ul {
-  margin: 0 0 calc(var(--padding) * 2) 0;
+  margin: var(--padding) 0;
   padding: 0 0 0 var(--padding);
   list-style: none;
 
@@ -17,6 +17,33 @@ ul {
       content: '•';
       color: var(--color-text-alt);
       line-height: var(--line-height);
+    }
+  }
+
+  &.inline {
+    padding:0;
+
+    > li {
+      margin:0;
+      padding:0;
+      display:inline;
+
+      &::before{
+        display:none;
+      }
+
+      &::after {
+        display: inline;
+        content: ", "
+      }
+
+      &:last-of-type {
+
+        &::after {
+          display: inline;
+          content: ""
+        }
+      }
     }
   }
 }

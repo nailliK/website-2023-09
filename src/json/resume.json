@@ -23,60 +23,9 @@
       }
     ],
     "name": "Killian Louis Grant",
-    "title": "People-Focused Engineering Leadership & Management",
-    "objective": "Seasoned engineering leader with over a decade of experience in building dynamic teams and technical excellence. Passionate about creating collaborative environments that prioritize professional growth and align with organizational goals. Leverages strategic vision and hands-on expertise for transformative impact."
+    "objective": "Seasoned engineering leader with over a decade of experience in building dynamic teams and technical excellence. Passionate about creating collaborative environments that prioritize professional growth and align with organizational goals. Leverages strategic vision and hands-on expertise for transformative impact.",
+    "title": "People-Focused Engineering Leadership"
   },
-  "competencies": [
-    {
-      "category": "Management & Leadership",
-      "skills": {
-        "Training & Mentorship": "Fostered a culture of continuous learning, and provided mentorship to junior team members.",
-        "Team Leadership": "Experience in leading cross-functional teams, setting measurable goals, and ensuring they're met.",
-        "Stakeholder Communication": "Acted as a technical liaison for sales engagements and client communications.",
-        "Strategic Planning": "Collaborated with executive leadership to align technical strategies with business objectives."
-      }
-    },
-    {
-      "category": "Engineering Concepts",
-      "skills": {
-        "Agile Methodologies": "Proficient in various Agile practices, including SAFe, Scrum, Kanban, Extreme Programming (XP), and Feature-Driven Development (FDD). Emphasis on iterative development, continuous feedback, and adaptive planning.",
-        "Software Development Life Cycle (SDLC)": "Comprehensive understanding of the systematic process for planning, creating, testing, deploying, and maintaining software applications, encompassing methodologies from Waterfall to Agile."
-      }
-    },
-    {
-      "category": "Back-End Development",
-      "skills": {
-        "Frameworks & Libraries": "Node (with Express, Nest, Next, Nuxt), PHP (with Symfony, Laravel), Java (with Spring Boot)",
-        "Communication": "WebSockets, Message Queues, Microservices, REST, GraphQL, gRPC",
-        "API Tools": "Swagger, OpenAPI"
-      }
-    },
-    {
-      "category": "Front-End Development",
-      "skills": {
-        "Scripting & Tooling": "TypeScript, TypeScript, WebPack, Workspaces, Yarn, NPM",
-        "Frameworks": "React (with Redux, MobX), Vue (with VueX, Pinia), HTMx, Web Components, PWA",
-        "Accessibility & Performance": "Testing and remediation for WCAG 2.1 AA, Lighthouse"
-      }
-    },
-    {
-      "category": "Database Management",
-      "skills": {
-        "Relational Databases": "SQL, Postgres, MySQL, SQLite, BigQuery, RDS",
-        "NoSQL Databases": "Mongo, Couch",
-        "Cloud Databases": "Firebase, Firestore, RealtimeDB"
-      }
-    },
-    {
-      "category": "DevOps & Deployment",
-      "skills": {
-        "CDN": "Cloudflare",
-        "CI/CD": "CircleCI, GitHub Actions, Fastlane",
-        "Cloud Platforms": "AWS, GCP",
-        "Containerization": "Docker"
-      }
-    }
-  ],
   "education": [
     {
       "degree": "Bachelor of Arts",
@@ -100,123 +49,328 @@
   "experience": [
     {
       "company": "Codelab303",
+      "description": "Spearheaded technical projects and served as the chief architect, seamlessly blending leadership and hands-on development.",
       "duration": {
         "endDate": "2023-09-01",
         "startDate": "2023-03-01"
       },
       "position": "Senior Technical Lead",
-      "description": "Spearheaded technical projects and served as the chief architect, seamlessly blending leadership and hands-on development.",
       "responsibilities": {
-        "Technical Leadership": "Led engineering projects and teams for diverse clients, ensuring the delivery of high-quality software solutions. Served as an architect for solutions spanning multiple systems or applications.",
         "Client Interaction": "Directly interfaced with clients, third-party engineering teams, quality assurance units, and software vendors. Led client technical discovery, reviews, status updates, and planning meetings.",
-        "Hands-on Development": "Provided critical technical contributions in software development using Javascript, Typescript, JVM, Native/Swift, and other languages. Evaluated and integrated new technologies to benefit both Codelab303 and its clients."
-      }
+        "Hands-on Development": "Provided critical technical contributions in software development. Evaluated and integrated new technologies to benefit both Codelab303 and its clients.",
+        "Technical Leadership": "Led engineering projects and teams for diverse clients, ensuring the delivery of high-quality software solutions. Served as an architect for solutions spanning multiple systems or applications."
+      },
+      "skills": [
+        "Agile",
+        "Client Interaction",
+        "Code Reviews",
+        "Mentoring",
+        "Project Scoping",
+        "SDLC",
+        "Team Management",
+        "Technical Consulting",
+        "Technical Leadership"
+      ],
+      "technologies": [
+        "AWS",
+        "CircleCI",
+        "Docker",
+        "GCP",
+        "Github Actions",
+        "GraphQL",
+        "JavaScript",
+        "Mikro-ORM",
+        "NestJS",
+        "NextJS",
+        "PostgreSQL",
+        "React",
+        "Redis",
+        "TypeScript",
+        "Vercel",
+        "REST",
+        "API"
+      ]
     },
     {
       "company": "Kin + Carta",
+      "description": "Drove technological vision, cooperating extensively across departments to ensure product excellence.",
       "duration": {
         "endDate": "2023-03-01",
         "startDate": "2021-12-01"
       },
       "position": "Principal Architect 8",
-      "description": "Drove technological vision, collaborating extensively across departments to ensure product excellence.",
       "responsibilities": {
-        "Technical Leadership": "Collaborated with product and technology leadership to plan the roadmap for technology pods. Provided technical leadership to teammates through coaching, mentorship, and establishing best practices. Performed peer code reviews to maintain high software quality standards.",
-        "Full-Stack Architecture & CMS Integration": "Spearheaded the design and solutioning of high-performance full-stack applications, integrating frontend frameworks like Vue with Vuex and backend technologies, including Java with the Spring Framework. Seamlessly incorporated Adobe Experience Manager to enhance content management capabilities. Ensured scalability, efficiency, and flawless interoperability between layers and systems.",
-        "Collaboration & Integration": "Worked closely with software developers, business analysts, and architects to design, develop, test, and maintain enterprise platform services. Developed, refined, and tuned integrations between various applications.",
-        "Problem-Solving & Analysis": "Demonstrated strong problem-solving skills, analyzing and resolving technical and application challenges. Assessed opportunities for application and process improvement, sharing insights with team members and stakeholders."
-      }
+        "Full-Stack Architecture & CMS Integration": "Spearheaded the design and solutioning of high-performance full-stack applications, integrating front-end and back-end frameworks. Ensured scalability, efficiency, and flawless interoperability between layers and systems.",
+        "Problem-Solving & Analysis": "Demonstrated strong problem-solving skills, analyzing and resolving technical and application challenges. Assessed opportunities for application and process improvement, sharing insights with team members and stakeholders.",
+        "Technical Leadership": "Worked with product and technology leadership to plan the roadmap for technology pods. Provided technical leadership to teammates through coaching, mentorship, and establishing best practices. Performed peer code reviews to maintain high software quality standards."
+      },
+      "skills": [
+        "Agile",
+        "Client Interaction",
+        "Cross Functional Team Management",
+        "Data Architecture",
+        "Enterprise Architecture",
+        "Mentoring",
+        "Project Scoping",
+        "Scrum",
+        "SDLC",
+        "Software Architecture",
+        "Technical Consulting",
+        "Technical Leadership"
+      ],
+      "technologies": [
+        "Adobe Experience Manager",
+        "API",
+        "AWS",
+        "CircleCI",
+        "Docker",
+        "GCP",
+        "JavaScript",
+        "Microservices",
+        "MongoDB",
+        "GraphQL",
+        "PostgreSQL",
+        "React",
+        "Redis",
+        "REST",
+        "TypeScript",
+        "Vue",
+        "Vuex"
+      ]
     },
     {
       "company": "InteliVideo",
+      "description": "Championed the modernization of front-end systems, converting legacy structures into cutting-edge user experiences.",
       "duration": {
         "endDate": "2021-12-01",
         "startDate": "2020-07-01"
       },
       "position": "Senior Lead Front-End Engineer",
-      "description": "Championed the modernization of front-end systems, converting legacy structures into cutting-edge user experiences.",
       "responsibilities": {
-        "Legacy System Overhaul": "Took charge of re-architecting the legacy subscriber-side experience, successfully replacing outdated liquid-based templates with modern, reusable Vue components.",
+        "Best Practices & Standards": "Established and enforced front-end best practices and coding standards. This initiative involved implementing style guides, test suites, and code linting/formatting tools to ensure consistent code quality and adherence to best practices.",
         "Front-end Modernization": "Spearheaded efforts to modernize the front-end developer experience. This included decoupling the front-end from the legacy Rails platform, transitioning to a Single Page Application (SPA) architecture, and updating front-end toolsets.",
-        "Best Practices & Standards": "Established and enforced front-end best practices and coding standards. This initiative involved implementing style guides, test suites, and code linting/formatting tools to ensure consistent code quality and adherence to best practices."
-      }
+        "Legacy System Overhaul": "Took charge of re-architecting the legacy subscriber-side experience, successfully replacing outdated liquid-based templates with modern, reusable Vue components."
+      },
+      "skills": [
+        "Agile",
+        "Data Architecture",
+        "Mentoring",
+        "Scrum",
+        "SDLC",
+        "Software Architecture",
+        "Technical Leadership"
+      ],
+      "technologies": [
+        "API",
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "PostgreSQL",
+        "REST",
+        "Streaming Video",
+        "TypeScript",
+        "Vue",
+        "Vuex"
+      ]
     },
     {
       "company": "Techtonic",
+      "description": "Revolutionized technical education, creating in-depth courses and fostering a culture of continuous learning during challenging times.",
       "duration": {
         "endDate": "2020-07-01",
         "startDate": "2020-01-01"
       },
       "position": "Director of Apprenticeship Instruction and Development",
-      "description": "Revolutionized technical education, creating in-depth courses and fostering a culture of continuous learning during challenging times.",
       "responsibilities": {
         "Course Creation": "Designed and rolled out intensive 12-week courses focused on Typescript and Java. Additionally, developed comprehensive teaching materials to aid instructors in delivering effective training.",
-        "Curriculum Development": "Spearheaded the complete overhaul of the academy's curriculum. Conducted comprehensive interviews with clients, existing development managers, and alumni to tailor the curriculum to best suit both client needs and student learning objectives.",
+        "Curriculum Development": "Led the complete overhaul of the academy's curriculum. Conducted comprehensive interviews with clients, existing development managers, and alumni to tailor the curriculum to best suit both client needs and student learning objectives.",
         "Team Management & Leadership": "Steered the engineering team through the challenges of the COVID pandemic, ensuring operational efficiency. Conducted regular 1:1s, fostering an environment of professional growth and continuous learning.",
         "Technical Consulting": "Played a pivotal role in agency sales calls, offering technical leadership and insights. Conducted detailed technical assessments and scoping for new projects, ensuring alignment with client requirements and organizational capabilities."
-      }
+      },
+      "skills": [
+        "Agile",
+        "Client Relations",
+        "Cross Functional Team Management",
+        "Data Architecture",
+        "Mentoring",
+        "Project Scoping",
+        "Scrum",
+        "SDLC",
+        "Software Architecture",
+        "Teaching",
+        "Technical Consulting",
+        "Technical Leadership",
+        "Technical Writing"
+      ],
+      "technologies": [
+        "API",
+        "AWS",
+        "Docker",
+        "Java",
+        "JavaScript",
+        "Microservices",
+        "MongoDB",
+        "PostgreSQL",
+        "REST",
+        "Spring Framework",
+        "Streaming Video",
+        "TypeScript",
+        "Vue",
+        "Vuex"
+      ]
     },
     {
       "company": "Fruition",
+      "description": "Led multidisciplinary teams, harmonizing operations and elevating engineering processes and team growth.",
       "duration": {
         "endDate": "2020-01-01",
         "startDate": "2018-09-01"
       },
       "position": "Director of Engineering",
-      "description": "Led multidisciplinary teams, harmonizing operations and elevating engineering processes and team growth.",
       "responsibilities": {
-        "Team Leadership & Integration": "Led and mentored diverse teams including Engineering, Design, QA, DevOps, and Project Management. Successfully integrated these teams into a unified, cross-functional 'Delivery Team', overseeing their allocations, utilization, and professional growth. Set and ensured the achievement of measurable goals.",
-        "Training & Mentorship": "Launched a robust training and mentorship program, fostering internal team growth. Elevated Project Managers, Designers, and Developers to practice-lead roles, collaborating with them to establish and document standards and best practices.",
+        "Collaboration & Scoping": "Worked closely with Business Development and Technical Solutions Architecture teams to refine project scoping processes, enhancing the accuracy of requirement gathering and statement of work documentation.",
         "Offshore Team Management": "Provided architectural guidance and personnel management to offshore teams in India and Brazil, ensuring the delivery of quality, maintainable projects within time and budget constraints.",
         "Process Enhancement": "Introduced boilerplate-style features and user stories with a focus on clarity and testability. Implemented pseudo-code style acceptance criteria, streamlining the development process with clear, binary, and easily testable requirements.",
         "QA Transition": "Led the transition of QA processes from external contractors to in-house teams, seamlessly integrating this new approach into the existing Agile/Scrum framework.",
-        "Collaboration & Scoping": "Worked closely with Business Development and Technical Solutions Architecture teams to refine project scoping processes, enhancing the accuracy of requirement gathering and statement of work documentation."
-      }
+        "Team Leadership & Integration": "Led and mentored diverse teams including Engineering, Design, QA, DevOps, and Project Management. Successfully integrated these teams into a unified, cross-functional 'Delivery Team', overseeing their allocations, utilization, and professional growth. Set and ensured the achievement of measurable goals.",
+        "Training & Mentorship": "Launched a robust training and mentorship program, fostering internal team growth. Elevated Project Managers, Designers, and Developers to practice-lead roles, collaborating with them to establish and document standards and best practices."
+      },
+      "skills": [
+        "Agile",
+        "Client Relations",
+        "Cross Functional Team Management",
+        "Data Architecture",
+        "Mentoring",
+        "Operational Leadership",
+        "Project Scoping",
+        "Scrum",
+        "SDLC",
+        "Software Architecture",
+        "Technical Consulting",
+        "Technical Leadership"
+      ],
+      "technologies": [
+        "API",
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Magento",
+        "Microservices",
+        "PHP",
+        "PostgreSQL",
+        "Rancher",
+        "React",
+        "Redux",
+        "REST",
+        "TypeScript",
+        "Vue",
+        "Vuex",
+        "WooCommerce"
+      ]
     },
     {
       "company": "Monigle",
+      "description": "Oversaw tech departments, refined operational processes, and transformed a key platform to better meet client demands.",
       "duration": {
         "endDate": "2018-09-01",
         "startDate": "2017-07-01"
       },
       "position": "Technical Director",
-      "description": "Oversaw tech departments, refined operational processes, and transformed a key platform to better meet client demands.",
       "responsibilities": {
+        "Coding Standards & Best Practices": "Championed the implementation of coding standards and best practices. Introduced peer code reviews and git-hooks for linting and formatting, ensuring code consistency, legibility, and maintainability across projects.",
         "Departmental Leadership": "Managed the Engineering, QA, and Ops departments, setting growth and productivity benchmarks aligned with the company's operational and strategic objectives. Instituted training and growth plans for all department members, fostering a culture of continuous learning and development.",
         "Process Optimization": "Collaborated with executive leadership, lead engineers, and project managers to audit and refine the development process. Key achievements included enhanced software quality, increased team productivity, and significant waste reduction.",
-        "Coding Standards & Best Practices": "Championed the implementation of coding standards and best practices. Introduced peer code reviews and git-hooks for linting and formatting, ensuring code consistency, legibility, and maintainability across projects.",
-        "Product Development": "As the Principal Architect and Engineer, led the rebuild of the BEAM (Branding Engagement and Asset Management) Platform, transitioning it into a service-based product to better serve client needs.",
+        "Product Development": "As the Principal Architect and Engineer, led the rebuild of the BEAM (Branding, Engagement, and Asset Management) Platform, transitioning it into a service-based product to better serve client needs.",
         "Technical Consultation": "Acted as the primary technical liaison for all sales engagements, establishing trust and clear communication channels with clients. Served as the go-to technical point-of-contact, ensuring client needs were accurately understood and addressed."
-      }
+      },
+      "skills": [
+        "Agile",
+        "Client Relations",
+        "Cross Functional Team Management",
+        "Data Architecture",
+        "Mentoring",
+        "Scrum",
+        "SDLC",
+        "Software Architecture",
+        "Technical Consulting",
+        "Technical Leadership"
+      ],
+      "technologies": [
+        "API",
+        "JavaScript",
+        "PHP",
+        "PostgreSQL",
+        "REST",
+        "TypeScript",
+        "Vue",
+        "Vuex"
+      ]
     },
     {
       "company": "Mondo Robot",
+      "description": "Directed key technical departments, ensuring optimal client engagements and process refinements.",
       "duration": {
         "endDate": "2017-07-01",
         "startDate": "2017-03-01"
       },
       "position": "Technical Director (Contract)",
-      "description": "Directed key technical departments, ensuring optimal client engagements and process refinements.",
       "responsibilities": {
-        "Departmental Leadership": "Oversaw the Engineering, QA, and Ops departments, managing team allocations, fostering professional growth, and setting and achieving measurable goals to ensure optimal performance and productivity.",
         "Client Engagement & Project Scoping": "Acted as the primary interface with clients, offering detailed estimates, scoping documentation, solutions architecture, and negotiating project terms to ensure alignment with client needs and organizational capabilities.",
+        "Departmental Leadership": "Oversaw the Engineering, QA, and Ops departments, managing team allocations, fostering professional growth, and setting and achieving measurable goals to ensure optimal performance and productivity.",
         "Process & Documentation Enhancement": "Championed the implementation of boilerplate-style features and user stories, emphasizing clarity and functionality. Introduced pseudo-code style acceptance criteria, streamlining the development process with criteria that were clear, binary, and easily testable.",
         "QA Transition & Integration": "Led the strategic shift of QA processes from external contractors to dedicated in-house teams. Seamlessly integrated this new approach into the existing Agile/Scrum framework, ensuring consistent quality assurance across projects."
-      }
+      },
+      "skills": [
+        "Agile",
+        "Client Relations",
+        "Cross Functional Team Management",
+        "Process Improvement",
+        "Scrum",
+        "SDLC",
+        "Technical Consulting",
+        "Technical Leadership"
+      ],
+      "technologies": ["EmberJS", "JavaScript", "PHP", "Ruby On Rails"]
     },
     {
       "company": "Spire Digital",
+      "description": "Pioneered engineering practices, emphasizing efficient agile methodologies and establishing high coding standards.",
       "duration": {
         "endDate": "2017-02-01",
         "startDate": "2013-10-01"
       },
       "position": "Director of Engineering",
-      "description": "Pioneered engineering practices, emphasizing efficient agile methodologies and establishing high coding standards.",
       "responsibilities": {
-        "Team Leadership & Growth": "Managed the hiring and development of the Engineering, QA, and Ops departments. Ensured team productivity and utilization aligned with company financial goals and growth objectives. Facilitated both personal and professional growth for all department members.",
         "Coding Standards & Best Practices": "Took the initiative to establish, update, and enforce coding standards and best practices across projects. Instituted Tech-Lead roles for each project to ensure adherence to these standards and that each feature/user story aligned with the project roadmap.",
-        "Process Optimization & Results": "Collaborated closely with the V.P. of Product to design and implement a proprietary Lean/Agile software development methodology. This focus on speed and quality led to a significant reduction in defect rates to below 5% and improved feature/task cycle times by 33%."
-      }
+        "Process Optimization & Results": "Collaborated closely with the V.P. of Product to design and implement a proprietary Lean/Agile software development methodology. This focus on speed and quality led to a significant reduction in defect rates to below 5% and improved feature/task cycle times by 33%.",
+        "Team Leadership & Growth": "Managed the hiring and development of the Engineering, QA, and Ops departments. Ensured team productivity and utilization aligned with company financial goals and growth objectives. Facilitated both personal and professional growth for all department members."
+      },
+      "skills": [
+        "Agile",
+        "Client Relations",
+        "Cross Functional Team Management",
+        "Mentoring",
+        "Operational Management",
+        "Process Improvement",
+        "Scrum",
+        "SDLC",
+        "Teaching",
+        "Technical Consulting",
+        "Technical Leadership"
+      ],
+      "technologies": [
+        "API",
+        "Drupal",
+        "JavaScript",
+        "Microservices",
+        "MongoDB",
+        "PHP",
+        "PostgreSQL",
+        "React",
+        "REST",
+        "Typescript",
+        "WordPress"
+      ]
     },
     {
       "company": "FIREANT STUDIO",
@@ -224,13 +378,7 @@
         "endDate": "2013-10-01",
         "startDate": "2011-12-01"
       },
-      "position": "Lead Full-Stack Developer",
-      "description": "Advocated for mobile-first strategies while guiding project direction and leading a synergistic design and development team.",
-      "responsibilities": {
-        "Mobile-First Strategy & Training": "Championed the implementation of mobile-first design and development strategies. Developed comprehensive training resources, enabling sales teams and designers to better understand and communicate the value and implementation of these strategies to clients.",
-        "Project Scoping & Technology Selection": "Worked closely with the Sales team to define project scopes and features. Played a pivotal role in vetting and selecting the most suitable technologies for each project, ensuring alignment with client needs and project objectives.",
-        "Team Leadership & Collaboration": "Led and managed a cohesive team of 5 developers and designers. Conducted code reviews and fostered a collaborative environment, ensuring seamless integration between front-end engineers and designers."
-      }
+      "position": "Lead Full-Stack Developer"
     },
     {
       "company": "Sterling-Rice Group",
@@ -238,14 +386,23 @@
         "endDate": "2011-12-01",
         "startDate": "2010-07-01"
       },
-      "position": "Senior Full-Stack Developer",
-      "description": "Played a foundational role in QA, showcased emerging technologies, and led critical client projects.",
-      "responsibilities": {
-        "QA Implementation": "Pioneered the formalization of the QA process at SRG, marking a significant step in quality assurance by hiring the organization's first dedicated QA technician.",
-        "Tech Showcasing": "Conducted live-broadcast web conferences, showcasing emerging and valuable web technologies, positioning SRG as a thought leader in the industry.",
-        "Technology Research & Selection": "Took the lead in researching and selecting the most suitable technologies for various projects, ensuring optimal performance and alignment with project goals.",
-        "Web Development & Client Projects": "Spearheaded the development of websites, micro-sites, banner-ads, and Facebook applications, catering to clients with substantial budgets, ensuring top-tier quality and performance."
-      }
+      "position": "Senior Full-Stack Developer"
+    },
+    {
+      "company": "Hill/Aevium",
+      "duration": {
+        "endDate": "2010-07-01",
+        "startDate": "2007-03-01"
+      },
+      "position": "Full-Stack Developer"
+    },
+    {
+      "company": "Amelie Company",
+      "duration": {
+        "endDate": "2007-03-01",
+        "startDate": "2007-01-01"
+      },
+      "position": "Full-Stack Developer"
     }
   ]
 }

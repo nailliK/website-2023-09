@@ -1,6 +1,6 @@
 # Killian Louis Grant
 
-## People-Focused Engineering Leadership & Management
+## People-Focused Engineering Leadership
 
 Seasoned engineering leader with over a decade of experience in building dynamic teams and technical excellence.
 Passionate about creating collaborative environments that prioritize professional growth and align with organizational

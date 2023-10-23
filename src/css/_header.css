@@ -1,6 +1,6 @@
 #header {
   > h1 {
-    margin-bottom: var(--padding);
+   margin-bottom:0;
   }
 
   > h2 {
@@ -12,6 +12,6 @@
 
   > p {
     margin-bottom: 0;
-  
+
   }
 }
