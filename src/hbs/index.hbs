@@ -41,24 +41,31 @@
   </ul >
 </nav >
 
-<!--<main id="resume" >-->
-<!--  <section id="competencies" >-->
-<!--    <h2 >Competencies</h2 >-->
-<!--    <ul >-->
-<!--      {{#each resume.competencies}}-->
-<!--        <li id="{{slugify category}}" >-->
-<!--          <h3 >{{category}}</h3 >-->
-<!--          <ul >-->
-<!--            {{#each skills}}-->
-<!--              <li id="{{slugify @key}}" >-->
-<!--                <strong >{{@key}}</strong >: {{this}}-->
-<!--              </li >-->
-<!--            {{/each}}-->
-<!--          </ul >-->
-<!--        </li >-->
-<!--      {{/each}}-->
-<!--    </ul >-->
-<!--  </section >-->
+<main id="resume" >
+  <section id="achievements" >
+    <h2 >Achievements</h2 >
+    <ul >
+      {{#each resume.achievements}}
+        <li id="{{slugify @key}}" >
+          <strong >{{@key}}</strong >: {{this}}
+        </li >
+      {{/each}}
+    </ul >
+  </section >
+
+  <section id="competencies" >
+    <h2 >Competencies</h2 >
+      {{#each resume.competencies}}
+          <h3 >{{category}}</h3 >
+          <ul >
+            {{#each skills}}
+              <li id="{{slugify @key}}" >
+                <strong >{{@key}}</strong >: {{this}}
+              </li >
+            {{/each}}
+          </ul >
+      {{/each}}
+  </section >
 
   <section id="experience" >
     <h2 >Experience</h2 >

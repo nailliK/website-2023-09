@@ -26,6 +26,34 @@
     "objective": "Seasoned engineering leader with over a decade of experience in building dynamic teams and technical excellence. Passionate about creating collaborative environments that prioritize professional growth and align with organizational goals. Leverages strategic vision and hands-on expertise for transformative impact.",
     "title": "People-Focused Engineering Leadership"
   },
+  "achievements": {
+    "Engineering Leadership": "Managed and mentored diverse teams spanning Engineering, Design, QA, DevOps, and Project Management at Fruition, fostering their professional growth and successfully unifying them into a cohesive 'Delivery Team'.",
+    "Operational Excellence": "Spearheaded the design and implementation of proprietary Lean/Agile methodologies at Spire Digital, slashing defect rates to below 5% and enhancing feature/task cycle times by 33%.",
+    "Strategic Technical Roadmapping": "As Principal Architect at Kin + Carta, drove the design of high-performance full-stack applications, ensuring flawless interoperability between system layers and scalability.",
+    "Process Refinement": "Introduced boilerplate-style features and user stories at Mondo Robot and Fruition, emphasizing clarity in requirements and streamlining the development process with clear, testable criteria.",
+    "Legacy Modernization": "Pivoted the front-end development paradigm at InteliVideo, decoupling from a legacy Rails platform to a Single Page Application (SPA) framework and updating outdated templates with cutting-edge Vue components."
+  },
+  "competencies": [
+    {
+      "category": "Strategic Leadership",
+      "skills": {
+        "Training & Mentorship": "Cultivated a continuous learning environment, offering direct mentorship to both emerging talents and established professionals.",
+        "Cross-functional Team Leadership": "Directed multidisciplinary teams, emphasizing measurable objectives and ensuring they align with broader company goals.",
+        "Stakeholder Collaboration": "Functioned as the primary technical liaison for sales and client communications, ensuring clarity and accuracy in engagements.",
+        "Strategic Technical Roadmapping": "Partnered with top-tier executives to synergize technical blueprints with business targets."
+      }
+    },
+    {
+      "category": "Technical Excellence",
+      "skills": {
+        "Agile Mastery": "Skilled in diverse Agile frameworks, with an emphasis on iterative progress, frequent feedback, and flexible foresight.",
+        "Software Development Life Cycle (SDLC)": "Expertise in the full spectrum of SDLC, spanning from traditional methodologies like Waterfall to contemporary Agile practices.",
+        "Code Quality & Standards": "Established and championed coding benchmarks, ensuring consistency, scalability, and maintainability across multiple projects.",
+        "Solution Architecture": "Led the ideation, design, and deployment of complex software solutions, ensuring they catered to evolving client needs and industry trends."
+      }
+    }
+  ],
+
   "education": [
     {
       "degree": "Bachelor of Arts",
